@@ -4,6 +4,6 @@ class User < ApplicationRecord
 
 
   def title
-  "#{self.king } #{self.nickname } ##{self.level } "
+  "#{self.kind } #{self.nickname } #{self.level }"
   end
 end
